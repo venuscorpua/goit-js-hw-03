@@ -1,6 +1,6 @@
 function slugify(title){
-    let title = title.toLowerCase();
-    titleMass = title.split(" ");
+    let titleName = title.toLowerCase();
+    titleMass = titleName.split(" ");
 
     return titleMass.join("-");
 }
